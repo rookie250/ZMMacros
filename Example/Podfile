@@ -1,0 +1,6 @@
+use_frameworks!
+target 'ZMMacros_Tests' do
+  pod 'ZMMacros', :path => '../'
+  
+  
+end
