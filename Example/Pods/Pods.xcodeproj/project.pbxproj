@@ -18,6 +18,8 @@
 		68DF7ECB215F21F300917B33 /* logicMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = 68DF7EC2215F21F300917B33 /* logicMacro.h */; };
 		68DF7ECC215F21F300917B33 /* xibMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = 68DF7EC3215F21F300917B33 /* xibMacro.h */; };
 		68DF7ECD215F21F300917B33 /* xibMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = 68DF7EC3215F21F300917B33 /* xibMacro.h */; };
+		68DF7ED0215F2B4F00917B33 /* ZMMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = 68DF7ECF215F2B4F00917B33 /* ZMMacro.h */; };
+		68DF7ED1215F2B4F00917B33 /* ZMMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = 68DF7ECF215F2B4F00917B33 /* ZMMacro.h */; };
 		7373D1CFE60800C1E5EBC663B01B20C4 /* Pods-ZMMacros_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 60B1FDC736D4C3D767049E110C195AA9 /* Pods-ZMMacros_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9C4B1052D815524F7202B0BA1FA4E519 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		B2707DCE33FAC12A7C911F5AAF190024 /* ZMMacros-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A1E4AD05200DC3893F7B8BE2FCFDDFAA /* ZMMacros-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -51,6 +53,7 @@
 		68DF7EC1215F21F300917B33 /* direcotryMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = direcotryMacro.h; path = ZMMacros/Classes/direcotryMacro.h; sourceTree = "<group>"; };
 		68DF7EC2215F21F300917B33 /* logicMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = logicMacro.h; path = ZMMacros/Classes/logicMacro.h; sourceTree = "<group>"; };
 		68DF7EC3215F21F300917B33 /* xibMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = xibMacro.h; path = ZMMacros/Classes/xibMacro.h; sourceTree = "<group>"; };
+		68DF7ECF215F2B4F00917B33 /* ZMMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZMMacro.h; path = ZMMacros/Classes/ZMMacro.h; sourceTree = "<group>"; };
 		701B3842CC9CFEB1A31AC8B14FAF7EEB /* ZMMacros.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZMMacros.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7207CD51D7F58FD2EA85619547E924A6 /* Pods-ZMMacros_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZMMacros_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		75858C5C42DE97CBE7FCBCEB4329236C /* ZMMacros.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZMMacros.xcconfig; sourceTree = "<group>"; };
@@ -107,6 +110,7 @@
 		498009B6D71099A5F43ABE8E83D4D0D2 /* ZMMacros */ = {
 			isa = PBXGroup;
 			children = (
+				68DF7ECF215F2B4F00917B33 /* ZMMacro.h */,
 				68DF7EBF215F21F300917B33 /* colorMacro.h */,
 				68DF7EC1215F21F300917B33 /* direcotryMacro.h */,
 				68DF7EC0215F21F300917B33 /* frameMacro.h */,
@@ -208,6 +212,7 @@
 				68DF7ECC215F21F300917B33 /* xibMacro.h in Headers */,
 				68DF7EC6215F21F300917B33 /* frameMacro.h in Headers */,
 				68DF7ECA215F21F300917B33 /* logicMacro.h in Headers */,
+				68DF7ED0215F2B4F00917B33 /* ZMMacro.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,6 +226,7 @@
 				68DF7ECD215F21F300917B33 /* xibMacro.h in Headers */,
 				68DF7EC7215F21F300917B33 /* frameMacro.h in Headers */,
 				68DF7ECB215F21F300917B33 /* logicMacro.h in Headers */,
+				68DF7ED1215F2B4F00917B33 /* ZMMacro.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
