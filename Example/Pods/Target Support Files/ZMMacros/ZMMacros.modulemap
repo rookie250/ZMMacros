@@ -1,0 +1,6 @@
+framework module ZMMacros {
+  umbrella header "ZMMacros-umbrella.h"
+
+  export *
+  module * { export * }
+}

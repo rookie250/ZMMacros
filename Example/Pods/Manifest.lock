@@ -1,0 +1,16 @@
+PODS:
+  - ZMMacros (0.1.0)
+
+DEPENDENCIES:
+  - ZMMacros (from `../`)
+
+EXTERNAL SOURCES:
+  ZMMacros:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ZMMacros: 143467b68492db2524de57dcce24a8de610ade6c
+
+PODFILE CHECKSUM: 484bce00f043754b0d57e3bbd1939f342e57d49d
+
+COCOAPODS: 1.5.0
